@@ -1,7 +1,7 @@
 var storage = require('azure-storage');
 var blobService = storage.createBlobService();
 var containerName = 'your-container-name';
-console.log("containerName:"+ containerName);
+console.log("containerName:  "+ containerName);
 blobService.createContainerIfNotExists(containerName, function(err, result, response) {
     if (err) {
         console.log("Couldn't create container %s", containerName);
