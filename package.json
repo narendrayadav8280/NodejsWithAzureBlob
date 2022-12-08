@@ -11,6 +11,6 @@
   "dependencies": {
     "azure": "^2.2.1-preview",
     "azure-storage": "^2.8.2",
-    "express": "^4.16.3"
+    "express": "^4.17.3"
   }
 }
